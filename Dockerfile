@@ -1,4 +1,4 @@
-FROM menhswu/docker-python
+FROM raychee/python3
 
 COPY tdodbc1510__linux_indep.15.10.01.05-1.tar.gz /opt/teradata_install/
 RUN cd /opt/teradata_install && \
